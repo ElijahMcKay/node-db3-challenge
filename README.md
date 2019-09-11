@@ -1,7 +1,7 @@
 # Multi-Table Queries and Database Helpers
 
 ## Topics
-
+     
 - Joins
 - Database Queries
 - Knex Queries
