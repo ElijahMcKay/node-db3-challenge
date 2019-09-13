@@ -17,7 +17,9 @@ function findById(id) {
 
 //resolves to an array of all correctly ordered steps for the given scheme 
 function findSteps(id) {
-    return 
+    return db('steps')
+        .join('schemes', "steps.id", "schemes.id")
+        .select("scheme_name")
 }
 
 //resolves to a newly inserted scheme, including an id 
